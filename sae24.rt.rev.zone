@@ -1,0 +1,14 @@
+$ORIGIN 23.172.in-addr.arpa.
+$TTL 86400
+
+@       SOA     ns.rt099.rt. admin.rt099.rt. (
+                    1 ; serial
+                    21600      ; refresh after 6 hours
+                    3600       ; retry after 1 hour
+                    604800     ; expire after 1 week
+                    86400 )    ; minimum TTL of 1 day
+
+     NS     ns.rt099.rt.
+99.99   PTR     ns.rt099.rt.
+98.99   PTR     dhcp.rt099.rt.
+10.99   PTR     www.rt099.rt.
